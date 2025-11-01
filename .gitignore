@@ -1,7 +1,9 @@
-# Ignore workflow files
+# Don't upload workflow or git files
 .github/
+.git/
+.gitignore
 
-# Ignore logs and system files
+# Optional cleanup
 *.log
-*.txt
 .DS_Store
+Thumbs.db
